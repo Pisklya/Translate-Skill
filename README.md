@@ -15,8 +15,12 @@ Download mtranslate and install:
     wget https://pypi.python.org/packages/b6/48/aae48178d4205eeda8186a402827b7fb113e05958b14d697b17a33752715/mtranslate-1.4.tar.gz
     tar -xvzf mtranslate-1.4.tar.gz
     cd mtranslate-1.4
+ 
     sudo /home/pi/.virtualenvs/mycroft/local/bin/python setup.py install
 	
+
+> **Note:**
+> - /home/pi or your directory containing  /.virtualenvs/mycroft/local/bin/ 
 
 
 Now go to Mycroft third party skill directory
